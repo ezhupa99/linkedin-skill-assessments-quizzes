@@ -1130,26 +1130,30 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 - [x]
 
-```public:
-       Sprite();
+```cpp
+public:
+    Sprite();
 ```
 
 - [ ]
 
-```private:
-       void Sprite();
+```cpp
+private:
+    void Sprite();
 ```
 
 - [ ]
 
-```public:
-      void Sprite();
+```cpp
+public:
+    void Sprite();
 ```
 
 - [ ]
 
-```private:
-       Sprite();
+```cpp
+private:
+    Sprite();
 ```
 
 #### Q67. What is the purpose of this line in a header file?
@@ -1180,7 +1184,7 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 bool is_even(int);
 ```
 
-- [x] bool is_even(float f); bool is_even(char *str);
+- [x] bool is_even(float f); bool is_even(char \*str);
 - [ ] bool is_even(float f); bool is_even(char str);
-- [ ] bool is_even_float(float f); bool is_even_str(char *str);
+- [ ] bool is_even_float(float f); bool is_even_str(char \*str);
 - [ ] float is_even(float f); char *is_even(char *str);
